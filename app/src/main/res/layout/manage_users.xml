@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_light"
+        android:gravity="center_vertical"
+        android:padding="@dimen/pad_5dp"
+        tools:context=".MainActivity">
+
+
+        <EditText
+            android:id="@+id/txt"
+            style="@style/edittext_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/searchusers" >
+
+
+        </EditText>
+
+        <Button
+            android:id="@+id/btnSend"
+            style="@style/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search48" />
+
+    </LinearLayout>
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/pad_10dp"
+        android:text="Add user"
+        android:textColor="@color/main_color_gray_dk"
+        android:textSize="@dimen/txt_18sp"
+        android:drawableLeft="@drawable/add"
+        android:drawablePadding="@dimen/pad_10dp"
+        android:id="@+id/adduser"
+        android:singleLine="false" />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/delete"
+        android:orientation="horizontal"
+        android:padding="@dimen/pad_10dp"
+        android:text="Maryam"
+        android:textColor="@color/main_color_gray_dk"
+        android:textSize="@dimen/txt_18sp"
+        android:drawableLeft="@drawable/nice"
+        android:drawablePadding="@dimen/pad_10dp"
+        android:id="@+id/chatItem1" />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/delete"
+        android:orientation="horizontal"
+        android:padding="@dimen/pad_10dp"
+        android:text="Hassan"
+        android:textColor="@color/main_color_gray_dk"
+        android:textSize="@dimen/txt_18sp"
+        android:drawableLeft="@drawable/nice"
+        android:drawablePadding="@dimen/pad_10dp"
+        android:id="@+id/chatItem2" />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/delete"
+        android:orientation="horizontal"
+        android:padding="@dimen/pad_10dp"
+        android:text="Fadel"
+        android:textColor="@color/main_color_gray_dk"
+        android:textSize="@dimen/txt_18sp"
+        android:drawableLeft="@drawable/nice"
+        android:drawablePadding="@dimen/pad_10dp"
+        android:id="@+id/chatItem3" />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/delete"
+        android:orientation="horizontal"
+        android:padding="@dimen/pad_10dp"
+        android:text="Fatimah"
+        android:textColor="@color/main_color_gray_dk"
+        android:textSize="@dimen/txt_18sp"
+        android:drawableLeft="@drawable/nice"
+        android:drawablePadding="@dimen/pad_10dp"
+        android:id="@+id/chatItem4" />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/delete"
+        android:orientation="horizontal"
+        android:padding="@dimen/pad_10dp"
+        android:text="Sami"
+        android:textColor="@color/main_color_gray_dk"
+        android:textSize="@dimen/txt_18sp"
+        android:drawableLeft="@drawable/nice"
+        android:drawablePadding="@dimen/pad_10dp"
+        android:id="@+id/chatItem5" />
+</LinearLayout>
